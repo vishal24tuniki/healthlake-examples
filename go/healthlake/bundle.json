@@ -1,0 +1,376 @@
+{
+    "resourceType": "Bundle",
+    "entry": [
+        {
+            "fullUrl": "http://hapik8snew.orbi.orbi/fhir/Observation/09b7f10b-6c0f-5150-8882-480776a8a8a1",
+            "request": {
+                "url": "http://hapik8snew.orbi.orbi/fhir/Observation/09b7f10b-6c0f-5150-8882-480776a8a8a1",
+                "method": "PUT"
+            },
+            "resource": {
+                "resourceType": "Observation",
+                "id": "09b7f10b-6c0f-5150-8882-480776a8a8a1",
+                "identifier": [
+                    {
+                        "system": "http://parchi.eka.care/local",
+                        "value": "P-DW-E012C79C-4D01-5344-B547-B80524596E63"
+                    },
+                    {
+                        "system": "https://eka.care/UUID",
+                        "value": "59358e5b-60fb-485c-b9c5-a0f9f043d111"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "reference": "MedicationRequest/P-DW-E012C79C-4D01-5344-B547-B80524596E63"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://mdb.eka.care",
+                                "code": "p-6257061218",
+                                "display": "Laboratory test"
+                            },
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://mdb.eka.care/source",
+                            "code": "lb-2139115007",
+                            "display": "Haemoglobin"
+                        },
+                        {
+                            "system": "http://mdb.eka.care/technical",
+                            "code": "lb-2139115007",
+                            "display": "Haemoglobin"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/169513393031468",
+                    "display": "Sangeeta Bai"
+                },
+                "effectiveDateTime": "2023-09-20T18:30:00+00:00",
+                "performer": [
+                    {
+                        "reference": "Practitioner/166987023728740"
+                    }
+                ],
+                "valueQuantity": {
+                    "value": 11.1,
+                    "unit": "G%",
+                    "system": "http://eka.care/mdb/technical",
+                    "code": "lu-33021"
+                }
+            }
+        },
+        {
+            "fullUrl": "http://hapik8snew.orbi.orbi/fhir/Observation/6efa367f-c942-5744-805a-df86318e2a5b",
+            "request": {
+                "url": "http://hapik8snew.orbi.orbi/fhir/Observation/6efa367f-c942-5744-805a-df86318e2a5b",
+                "method": "PUT"
+            },
+            "resource": {
+                "resourceType": "Observation",
+                "id": "6efa367f-c942-5744-805a-df86318e2a5b",
+                "identifier": [
+                    {
+                        "system": "http://parchi.eka.care/local",
+                        "value": "P-DW-E012C79C-4D01-5344-B547-B80524596E63"
+                    },
+                    {
+                        "system": "https://eka.care/UUID",
+                        "value": "59358e5b-60fb-485c-b9c5-a0f9f043d111"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "reference": "MedicationRequest/P-DW-E012C79C-4D01-5344-B547-B80524596E63"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://mdb.eka.care",
+                                "code": "p-6257061218",
+                                "display": "Laboratory test"
+                            },
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://mdb.eka.care/source",
+                            "code": "lb-2782728927",
+                            "display": "Lymphocyte"
+                        },
+                        {
+                            "system": "http://mdb.eka.care/technical",
+                            "code": "lb-2782728927",
+                            "display": "Lymphocyte"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/169513393031468",
+                    "display": "Sangeeta Bai"
+                },
+                "effectiveDateTime": "2023-09-20T18:30:00+00:00",
+                "performer": [
+                    {
+                        "reference": "Practitioner/166987023728740"
+                    }
+                ],
+                "valueQuantity": {
+                    "value": 26.6,
+                    "unit": "/ul",
+                    "system": "http://eka.care/mdb/technical",
+                    "code": "lu-972391"
+                }
+            }
+        },
+        {
+            "fullUrl": "http://hapik8snew.orbi.orbi/fhir/Observation/f764f795-cf39-5a9a-b436-b3d7b82d7650",
+            "request": {
+                "url": "http://hapik8snew.orbi.orbi/fhir/Observation/f764f795-cf39-5a9a-b436-b3d7b82d7650",
+                "method": "PUT"
+            },
+            "resource": {
+                "resourceType": "Observation",
+                "id": "f764f795-cf39-5a9a-b436-b3d7b82d7650",
+                "identifier": [
+                    {
+                        "system": "http://parchi.eka.care/local",
+                        "value": "P-DW-E012C79C-4D01-5344-B547-B80524596E63"
+                    },
+                    {
+                        "system": "https://eka.care/UUID",
+                        "value": "59358e5b-60fb-485c-b9c5-a0f9f043d111"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "reference": "MedicationRequest/P-DW-E012C79C-4D01-5344-B547-B80524596E63"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://mdb.eka.care",
+                                "code": "p-6257061218",
+                                "display": "Laboratory test"
+                            },
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://mdb.eka.care/source",
+                            "code": "lb-2577461804",
+                            "display": "Platelet Count"
+                        },
+                        {
+                            "system": "http://mdb.eka.care/technical",
+                            "code": "lb-2577461804",
+                            "display": "Platelet Count"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/169513393031468",
+                    "display": "Sangeeta Bai"
+                },
+                "effectiveDateTime": "2023-09-20T18:30:00+00:00",
+                "performer": [
+                    {
+                        "reference": "Practitioner/166987023728740"
+                    }
+                ],
+                "valueQuantity": {
+                    "value": 350000,
+                    "unit": "/ul",
+                    "system": "http://eka.care/mdb/technical",
+                    "code": "lu-972391"
+                }
+            }
+        },
+        {
+            "fullUrl": "http://hapik8snew.orbi.orbi/fhir/Observation/5899523d-72e7-579d-8afc-f523b09344d4",
+            "request": {
+                "url": "http://hapik8snew.orbi.orbi/fhir/Observation/5899523d-72e7-579d-8afc-f523b09344d4",
+                "method": "PUT"
+            },
+            "resource": {
+                "resourceType": "Observation",
+                "id": "5899523d-72e7-579d-8afc-f523b09344d4",
+                "identifier": [
+                    {
+                        "system": "http://parchi.eka.care/local",
+                        "value": "P-DW-E012C79C-4D01-5344-B547-B80524596E63"
+                    },
+                    {
+                        "system": "https://eka.care/UUID",
+                        "value": "59358e5b-60fb-485c-b9c5-a0f9f043d111"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "reference": "MedicationRequest/P-DW-E012C79C-4D01-5344-B547-B80524596E63"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://mdb.eka.care",
+                                "code": "p-6257061218",
+                                "display": "Laboratory test"
+                            },
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://mdb.eka.care/source",
+                            "code": "lb-9359258775",
+                            "display": "S.G.O.T."
+                        },
+                        {
+                            "system": "http://mdb.eka.care/technical",
+                            "code": "lb-9359258775",
+                            "display": "S.G.O.T."
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/169513393031468",
+                    "display": "Sangeeta Bai"
+                },
+                "effectiveDateTime": "2023-09-20T18:30:00+00:00",
+                "performer": [
+                    {
+                        "reference": "Practitioner/166987023728740"
+                    }
+                ],
+                "valueQuantity": {
+                    "value": 19.5,
+                    "unit": "U/L",
+                    "system": "http://eka.care/mdb/technical",
+                    "code": "lu-1006739"
+                }
+            }
+        },
+        {
+            "fullUrl": "http://hapik8snew.orbi.orbi/fhir/Observation/aa00efbd-ef0a-5a70-ae1e-0b5ebc4e7217",
+            "request": {
+                "url": "http://hapik8snew.orbi.orbi/fhir/Observation/aa00efbd-ef0a-5a70-ae1e-0b5ebc4e7217",
+                "method": "PUT"
+            },
+            "resource": {
+                "resourceType": "Observation",
+                "id": "aa00efbd-ef0a-5a70-ae1e-0b5ebc4e7217",
+                "identifier": [
+                    {
+                        "system": "http://parchi.eka.care/local",
+                        "value": "P-DW-E012C79C-4D01-5344-B547-B80524596E63"
+                    },
+                    {
+                        "system": "https://eka.care/UUID",
+                        "value": "59358e5b-60fb-485c-b9c5-a0f9f043d111"
+                    }
+                ],
+                "basedOn": [
+                    {
+                        "reference": "MedicationRequest/P-DW-E012C79C-4D01-5344-B547-B80524596E63"
+                    }
+                ],
+                "status": "final",
+                "category": [
+                    {
+                        "coding": [
+                            {
+                                "system": "http://mdb.eka.care",
+                                "code": "p-6257061218",
+                                "display": "Laboratory test"
+                            },
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                                "code": "laboratory",
+                                "display": "Laboratory"
+                            }
+                        ],
+                        "text": "laboratory"
+                    }
+                ],
+                "code": {
+                    "coding": [
+                        {
+                            "system": "http://mdb.eka.care/source",
+                            "code": "lb-9604959198",
+                            "display": "TSH"
+                        },
+                        {
+                            "system": "http://mdb.eka.care/technical",
+                            "code": "lb-9604959198",
+                            "display": "TSH"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "Patient/169513393031468",
+                    "display": "Sangeeta Bai"
+                },
+                "effectiveDateTime": "2023-09-20T18:30:00+00:00",
+                "performer": [
+                    {
+                        "reference": "Practitioner/166987023728740"
+                    }
+                ],
+                "valueQuantity": {
+                    "value": 2.49,
+                    "unit": "ulU/mL",
+                    "system": "http://eka.care/mdb/technical",
+                    "code": "lu-1532096096"
+                }
+            }
+        }
+    ],
+    "type": "batch"
+}
